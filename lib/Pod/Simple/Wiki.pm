@@ -74,6 +74,9 @@ sub new {
        $self->{_item_indent}    = 0;
        $self->{_debug}          = 0;
 
+    # - Ignore X<>  (index entries)  RT#60307
+    $self->nix_X_codes(1);
+
     bless  $self, $class;
     return $self;
 }
