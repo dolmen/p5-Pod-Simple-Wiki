@@ -4,3 +4,6 @@
 /MANIFEST.bak
 /MANIFEST.SKIP.bak
 /Pod-Simple-Wiki-[0-9]*
+.*.swp
+*.bak
+*.old
