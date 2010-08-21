@@ -1,0 +1,6 @@
+/Makefile
+/blib/
+/pm_to_blib
+/MANIFEST.bak
+/MANIFEST.SKIP.bak
+/Pod-Simple-Wiki-[0-9]*
